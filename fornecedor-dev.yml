@@ -1,0 +1,9 @@
+spring:
+  datasource:
+      username: root-dev
+      password: admin-dev
+      url: jdbc:mysql://localhost:3306/fornecedor?useTimezone=true&serverTimezone=UTC
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
